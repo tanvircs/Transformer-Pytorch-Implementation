@@ -76,32 +76,9 @@ tmsat(encoding_matrix, mask)  # Apply masked self-attention
 
 ```bash
 📦 Transformer-SelfAttention
-├── 📜 self_attention.py          # Self-Attention Implementation
-├── 📜 masked_self_attention.py   # Masked Self-Attention Implementation
-├── 📜 demo.ipynb                 # Jupyter Notebook with Examples
+├── 📜 self_attention.ipynb          # Self-Attention Implementation
+├── 📜 masked_self_attention.ipynb   # Masked Self-Attention Implementation
 ├── 📜 README.md                  # Documentation
-```
-
----
-
-## 🚀 **Run the Code**
-
-### 📌 Install Dependencies
-
-```bash
-pip install torch numpy
-```
-
-### 📌 Run Self-Attention
-
-```bash
-python self_attention.py
-```
-
-### 📌 Run Masked Self-Attention
-
-```bash
-python masked_self_attention.py
 ```
 
 ---
