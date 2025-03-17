@@ -42,3 +42,8 @@ This repository contains two key implementations:
 tsa = Transformer_SelfAttention(dimentiona_model=2, row_dimension=0, column_dimension=1)
 tsa(encoding_matrix)
 ```
+
+### **2️⃣ Masked Self-Attention (`Transformer_MaskSelfAttention`)**
+📌 Used in decoder models (GPT, Transformer Decoder) to prevent attention to future tokens.
+
+
